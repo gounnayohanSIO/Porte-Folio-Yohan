@@ -1,0 +1,93 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdf6e3; 
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+h1 {
+    color: #b22222; 
+}
+
+
+form {
+    background-color: #f0f8ff; 
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    vertical-align: top;
+}
+
+
+label {
+    font-weight: bold;
+    display: block;
+}
+
+label.bleu {
+    color: blue;
+}
+
+label.vert {
+    color: green;
+}
+
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"],
+textarea {
+    width: 95%;
+    padding: 10px;
+    border: 2px solid blue; 
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+input[type="submit"] {
+    background-color: blue; 
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: green; 
+}
+
+
+@media screen and (max-width: 500px) {
+    form {
+        width: 95%;
+        margin: 10px auto;
+    }
+
+    table, td {
+        display: block;
+        width: 100%;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+    }
+}

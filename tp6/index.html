@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'inscription</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formulaire d’inscription</h1>
+
+    <form>
+        <table>
+            <tr>
+                <td><label for="username" class="bleu">Nom d’utilisateur :</label></td>
+                <td><input type="text" id="username" name="username" required></td>
+            </tr>
+            <tr>
+                <td><label for="password" class="bleu">Mot de passe :</label></td>
+                <td><input type="password" id="password" name="password" required></td>
+            </tr>
+            <tr>
+                <td><label for="confirm" class="vert">Confirmation :</label></td>
+                <td><input type="password" id="confirm" name="confirm" required></td>
+            </tr>
+            <tr>
+                <td><label for="email" class="vert">Email :</label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="dob" class="vert">Date de naissance :</label></td>
+                <td><input type="date" id="dob" name="dob" required></td>
+            </tr>
+            <tr>
+                <td><label class="vert">Genre :</label></td>
+                <td>
+                    <input type="radio" name="genre" value="homme" id="homme">
+                    <label for="homme">Homme</label><br>
+                    <input type="radio" name="genre" value="femme" id="femme">
+                    <label for="femme">Femme</label><br>
+                    <input type="radio" name="genre" value="autre" id="autre">
+                    <label for="autre">Autre</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="cgu" class="vert">Conditions :</label></td>
+                <td>
+                    <input type="checkbox" id="cgu" name="cgu" checked>
+                    <label for="cgu">J’accepte les conditions générales</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <input type="submit" value="S’inscrire">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
