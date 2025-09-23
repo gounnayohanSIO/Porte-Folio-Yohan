@@ -40,13 +40,12 @@
 
         <ul>
 
-            <li><a href=https://www.instagram.com/yohan_gna/?hl=fr>Mes réseau</a></li> <!-- Lien vers la section "about" -->
-
-            <li><a href=https://www.boxe-francaise.com/index.php?lang=fr>Mes loisirs</a></li> <!-- Lien vers la section "hobbies" -->
-
-            <li><a href="contact.html">Contact</a></li> <!-- Lien vers la section "contact" -->
-
-            <li><a href="crt.html">Carte de visite</a></li> <!-- Lien vers la section "carte de visite" -->
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#hobbies">Mes loisirs</a></li>
+            <li><a href="#Témoignage">Témoignage</a></li>
+            <li><a href="#projet">Mes Projets</a></li>
+            <li><a href="#galerie">Ma Galerie</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
 
     </nav>
@@ -91,7 +90,7 @@
 
     <!-- Section "Contact" -->
 
-    <section id="contact">
+    <section id="Témoignage">
 
         <h2>Témoignage</h2>
 
@@ -112,13 +111,47 @@
             Merci beaucoup.</p>
 
     </section>
+    <section id="Projet">
 
+        <h2>Projet</h2>
+
+        <p> <a href="https://gounnayohansio.github.io/Porte-Folio-Yohan/">Porte Folio</a></p>
+
+    </section>
+    <section id="galerie">
+
+        <h2>galerie</h2>
+
+        <p> <img src="Star_Wars_Logo.svg" alt="Ma photo">
+            <img src="1024452-star-wars-bientot-un-jeu-the-mandalorian-developpe-par-respawn-entertainment.jpg" alt="Ma photo">
+            <img src="4731.jpg" alt="Ma photo"></p>
+
+    </section>
+    
+
+        
     <a href="index.html">Retour au Sommaire</a>
 
     <!-- Pied de page -->
-
+    <section id="contact">
     <footer>
+            
 
+        <h2>Contact</h2>
+
+        <form action="#" method="post">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required placeholder="Votre nom"><br>
+    
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required placeholder="Votre email"><br>
+    
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Votre message"></textarea><br>
+    
+            <input type="submit" value="Envoyer">
+        </form>
+    
         <p>&copy;2025 TEDx Paris</p>
 
     </footer>
