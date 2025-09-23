@@ -1,0 +1,175 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #C9DBFF; 
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+h1 {
+    color: #0029FF;
+}
+
+form {
+    background-color: #f0f8ff;
+    width: 500px;
+    max-width: 95%;
+    margin: 30px auto 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+
+td {
+    padding: 10px;
+    vertical-align: middle;
+}
+
+table td:first-child {
+    text-align: right;
+    padding-right: 15px;
+    white-space: nowrap; 
+    width: 35%;
+}
+
+table td:last-child {
+    text-align: left;
+    padding-bottom: 10px;
+    width: 65%;
+}
+
+
+label {
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+}
+
+label.bleu {
+    color: blue;
+}
+
+label.vert {
+    color: green;
+}
+
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="file"],
+select,
+textarea,
+input[type="number"],
+input[type="date"],
+input[type="tel"],
+input[type="search"],
+input[type="url"],
+input[type=""] {
+    width: 100%;
+    max-width: 100%;
+    padding: 6px 10px;
+    box-sizing: border-box; 
+    border: 2px solid #00F5FF; 
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="file"]:focus,
+select:focus,
+textarea:focus,
+input[type="number"]:focus,
+input[type="date"]:focus,
+input[type="tel"]:focus,
+input[type="search"]:focus,
+input[type="url"]:focus,
+input[type="color"]:focus {
+    border-color: #004999; 
+    outline: none;
+}
+
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+td[colspan="2"] {
+    text-align: center;
+    padding-top: 20px;
+}
+
+input[type="submit"] {
+    background-color: #0066cc; 
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+
+input[type="submit"]:hover {
+    background-color: #004999; 
+}
+
+a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: bold;
+    transition: text-decoration 0.3s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 500px) {
+    form {
+        width: 95%;
+        margin: 10px auto;
+    }
+
+    table, td {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    table td:first-child {
+        text-align: left;
+        padding-right: 0;
+        width: 100%;
+        white-space: normal;
+        margin-bottom: 5px;
+    }
+
+    table td:last-child {
+        width: 100%;
+        padding-bottom: 15px;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+    }
+}
