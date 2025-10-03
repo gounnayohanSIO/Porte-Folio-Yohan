@@ -1,0 +1,59 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    background-image: url("alber.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    gap: 15px; 
+    background: rgba(0, 0, 0, 0.4); 
+    padding: 30px 50px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+label {
+    font-size: 1.5em;
+    color: #fff;
+}
+
+input.t, 
+#resultat {
+    width: 400px;
+    padding: 8px;
+    font-size: 1.3em;
+    border: 4px solid #2108ff;
+    border-radius: 50px;
+    background-color: #ffffff;
+    color: #00d9ff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+button {
+    background-color: #1d0ef0;
+    color: rgb(17, 245, 176);
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #e40505;
+    box-shadow: 0px 4px 15px rgba(255, 0, 212, 0.4);
+}
+
