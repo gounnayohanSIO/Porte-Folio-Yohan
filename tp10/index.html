@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="calcul.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="inputs">
+        <label for="t1">Nombre 1 :</label>
+        <input type="text" id="t1" placeholder="saisir un nombre" />
+
+        <label for="t2">Nombre 2 :</label>
+        <input type="text" id="t2" placeholder="saisir un nombre" />
+      </div>
+
+      <div class="btn-group">
+        <button onclick="addition()">+</button>
+        <button onclick="soustraction()">-</button>
+        <button onclick="multiplication()">*</button>
+        <button onclick="division()">/</button>
+      </div>
+
+      <div class="btn-group">
+        <button onclick="permute()">Permute</button>
+        <button onclick="parite()">Parité</button>
+      </div>
+
+      <div class="btn-clear">
+        <button class="clear" onclick="effacer()">Effacer</button>
+      </div>
+
+      <div class="resultats">
+        <input type="text" id="resultat" readonly placeholder="Résultat" />
+        <input type="text" id="t3" readonly placeholder="Paire ou Impaire" />
+      </div>
+    <t1 color="white">Ce que j'ai apris pandant le tp 10</t1>
+    <t3color="white">Aujourd’hui, j’ai appris à créer une calculatrice en HTML, CSS et JavaScript.
+        J’ai utilisé plusieurs fonctions pour réaliser des opérations, dont certaines plus complexes comme division(), qui vérifie la division par zéro, permute(), qui échange les valeurs de deux champs, et parite(), qui teste si un nombre est pair ou impair grâce à l’opérateur modulo.
+        Ces fonctions m’ont permis de mieux comprendre la logique conditionnelle et la manipulation du en JavaScript.</t3>
+    
+    </div>
+  </body>
+</html>

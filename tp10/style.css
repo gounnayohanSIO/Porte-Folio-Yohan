@@ -1,0 +1,98 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("alber.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background: rgba(245, 245, 245, 0.5);
+    padding: 40px 60px;
+    border-radius: 25px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+    text-align: center;
+  }
+  
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  label {
+    font-size: 1.3em;
+    color: white;
+  }
+  
+  input {
+    width: 350px;
+    padding: 10px;
+    font-size: 1.1em;
+    border: 2px solid #a78bfa;
+    border-radius: 20px;
+    text-align: center;
+    outline: none;
+    background: white;
+    color: #333;
+  }
+  
+  .btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  button {
+    background: linear-gradient(135deg, #8e63ff, #7a52f7);
+    color: white;
+    padding: 15px 25px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background: linear-gradient(135deg, #a46aff, #9160ff);
+    transform: scale(1.05);
+  }
+  
+  .btn-clear {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .clear {
+    background-color: #e53935;
+    color: white;
+    padding: 12px 30px;
+    font-size: 1.2em;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .clear:hover {
+    background-color: #ff5252;
+    transform: scale(1.05);
+  }
+  
+  .resultats {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
