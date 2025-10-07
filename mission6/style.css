@@ -1,0 +1,104 @@
+body {
+    font-family: "Calibri", Arial, sans-serif;
+    background-color: #fefefe;
+    color: #222;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cv-container {
+    width: 900px;
+    margin: 20px auto;
+    border: 2px solid #999;
+    padding: 20px;
+    background-color: white;
+  }
+  
+ 
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 8px solid #0066ff;
+    padding: 15px;
+    border-radius: 20px;
+  }
+  
+  .header-left h1 {
+    margin: 0;
+    color: #333;
+    font-size: 28px;
+    text-transform: uppercase;
+  }
+  
+  .header-left p {
+    margin: 5px 0;
+  }
+  
+  .header-right img {
+    width: 140px;
+    height: 140px;
+    border: 2px solid #808080;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+
+  .block {
+    border: 7px solid #0095ff;
+    border-radius: 40px;
+    padding: 15px 20px;
+    margin-top: 20px;
+  }
+  
+  .block h2 {
+    background-color: #0095ff;
+    color: #050805;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    border-bottom: 2px solid #ccc;
+    margin-top: 0;
+  }
+  
+  .content {
+    margin-top: 10px;
+  }
+  
+  .item {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .year {
+    width: 140px;
+    font-weight: bold;
+    color: #444;
+  }
+  
+  .item p {
+    margin: 0;
+  }
+  
+  
+  .experiences {
+    border-color:#0095ff;
+  }
+  
+  .competences {
+    border-color: #0095ff;
+  }
+  
+  .interets {
+    border-color: #0095ff;
+  }
+  
+  
+  strong {
+    color: #000;
+  }
+  
+  em {
+    color: #555;
+    font-style: italic;
+  }
