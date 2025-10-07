@@ -111,4 +111,8 @@ body {
     .block {
       margin-top: 25px;
     }
+ .cv-container {
+      padding: 20px; 
+margin: 20px 10px;
+    }
   }
