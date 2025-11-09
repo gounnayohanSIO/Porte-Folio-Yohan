@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facture Apple</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" class="logo" alt="Logo Apple">
+
+        <div class="header-info">
+            <div class="left">
+                <h3><u>Destinataire</u></h3>
+                <textarea placeholder="Nom"></textarea>
+                <textarea placeholder="Nom de la société"></textarea>
+                <textarea placeholder="Adresse Postale"></textarea>
+                <textarea placeholder="Téléphone"></textarea>
+                <textarea placeholder="Email"></textarea>
+            </div>
+
+            <div class="right">
+                <p><b>Date création :</b> <input type="date" value="2022-11-15"></p>
+                <p><b>N° Facture :</b> <input type="text" placeholder="Ex : F-2022-001"></p>
+            </div>
+        </div>
+
+        <div class="middle-info">
+            <div class="left">
+                <h3><u>Envoyer à</u></h3>
+                <textarea placeholder="Nom"></textarea>
+                <textarea placeholder="Nom de la société"></textarea>
+                <textarea placeholder="Adresse Postale"></textarea>
+                <textarea placeholder="Téléphone"></textarea>
+                <textarea placeholder="Email"></textarea>
+            </div>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Article :</th>
+                    <th>Quantité :</th>
+                    <th>Prix :</th>
+                    <th>Résultat :</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="text" value=""></td>
+                    <td><input type="number" value="" class="quantite"></td>
+                    <td><input type="number" value="" class="prix"></td>
+                    <td><input type="text" class="resultat" readonly></td>
+                </tr>
+                <tr>
+                    <td><input type="text" value=""></td>
+                    <td><input type="number" value="" class="quantite"></td>
+                    <td><input type="number" value="" class="prix"></td>
+                    <td><input type="text" class="resultat" readonly></td>
+                </tr>
+                <tr>
+                    <td><input type="text" value=""></td>
+                    <td><input type="number" value="" class="quantite"></td>
+                    <td><input type="number" value="" class="prix"></td>
+                    <td><input type="text" class="resultat" readonly></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3" style="text-align:right;"><b>Total :</b></td>
+                    <td><input type="text" id="total" readonly></td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <div class="buttons">
+            <button id="reset">Réinitialiser</button>
+            <button id="calcul">Résultat</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
